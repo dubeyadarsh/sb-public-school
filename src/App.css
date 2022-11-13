@@ -1,0 +1,8 @@
+.mainimg{
+  height: 130vh;
+  width: 100vw;
+}
+
+*{
+  overflow-x: hidden;
+}

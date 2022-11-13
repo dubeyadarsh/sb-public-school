@@ -1,0 +1,54 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+.head{
+    font-weight: bolder;
+    font-size: 35px;
+}
+.hamburger{
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    background: transparent;
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.462);
+}
+.closeButton{
+    position: fixed;
+    right: 0;
+    top: 0;
+    color: rgb(9, 205, 9);
+}
+.innerbox{
+    width: 35vw;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.733);
+    padding: 100px; 
+    padding-left: 35px;
+    color: aquamarine;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: larger;
+   font-weight: bold;
+    overflow-y: scroll;
+}
+.innerbox button :hover{
+    color: rgb(244, 186, 40);
+}
+@media screen and (max-width: 880px) {
+    .innerbox{
+        width: 100vw;
+    }
+    .links{
+        display: none;
+    }
+  }
+  @media screen and (max-width: 428px) {
+    .head{
+        font-size: 23px;
+        margin-top: 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  }

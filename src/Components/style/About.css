@@ -1,0 +1,9 @@
+.img2{
+    width: 75vw;
+}
+@media screen and (max-width: 700px) {
+    .img2{
+       width: 100vw;
+       height: 50vh;
+    }
+}
